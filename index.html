@@ -1,0 +1,250 @@
+<!-- Wolfram Language Web App HTML Template -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Standard Social Media Tag Template
+Reference: https://moz.com/blog/meta-data-templates-123
+ -->
+
+<title>Wolfram Web App Page Title. Maximum length 60-70 characters</title>
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary: My First Wolfram App">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Wolfram Web App Page Title">
+<meta name="twitter:description" content="Wolfram Web App Page description less than 200 characters">
+<meta name="twitter:creator" content="@author_handle">
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta name="twitter:image" content="http://media.wolfram.com/logos/images/wolfram-language-logo.png">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Wolfram Web App Title Here" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.WolframWebApp.com/" />
+<meta property="og:image" content="http://media.wolfram.com/logos/images/wolfram-language-logo.png" />
+<meta property="og:description" content="Wolfram Web App Description Here" /> 
+<meta property="og:site_name" content="Site Name, i.e. Wolfram Web App" />
+
+
+<!-- Bootstrap Core CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="assets/css/stylish-portfolio.css" rel="stylesheet">
+<link href="assets/css/social-sharing.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+<!-- The Icon that shows up on the literal page tab -->
+<link rel="shortcut icon" href="assets/img/icon.ico">
+
+<style>
+h1 {
+    text-shadow: 2px 2px #000000;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Wolfram Web App</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About Us</a>
+            </li>
+            <li>
+                <a href="#info" onclick = $("#menu-close").click(); >Information</a>
+            </li>
+        </ul>
+    </nav>
+
+
+<!-- Wolfram Web App Social Sharing: Go to www.addthis.com and use their free services to add a good looking social sharing element. This is just an example registered to a Wolfram account. To keep track of your shares, make your own! Keep in mind that this just shares this page and not the actual result of your function. To be able to do that look at the blogpost on LookLike.Ai here: tumblr.com/blog/wolframlang -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55d0da488e2e5a1c" async="async"></script>
+
+
+
+<!-- Wolfram Web App No Script Tag: To use the javascript used on this site, and any you custom-add, a visitor's browser must support Javascript! This will appear if they can't support it-->
+<noscript>
+    <div style="position: fixed; top: 0px; left: 0px; z-index: 9000; 
+                height: 100%; width: 100%; background-color: #000000;">
+        <p style="text-align:center; color:#ffffff;font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;">We're sorry but interacting with this site <strong>requires</strong> JavaScript.</p>
+    </div>
+</noscript>
+
+
+    <!-- Header Option #1: Have a Background. Change file path as needed below-->
+<style type="text/css">
+    .header-background {
+        display: table;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(assets/img/WolframExampleBackgroundPhoto.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+</style>
+
+
+    <header id="top" class="header-background">
+        <div class="text-vertical-center">
+           <br>
+           <p class="title title1">Wolfram Web App Template</p>
+           <br>
+           <p class="title title2">Modify this and make yourself a sweet app</p>
+
+    
+            <div class = "container" >
+                <div class="col-md-12 col-sm-12 col-lg-12" >
+                    <!-- Here is the example Wolfram Function. Take the output of your CloudDeployed function url and copy/paste in here, leaving the "?_emebed=iframe"-->
+                    <iframe src="https://www.wolframcloud.com/objects/user-874811a9-16a9-484c-9346-4513ac69bd23/ExampleURLExtensionName?_embed=iframe" width="100%" height="432" /> </iframe>
+
+                    <div class="col-lg-12" align = "center" style="padding-top: 5px">
+                        <div class = "btn-submit" onclick="goBack()">
+                        Try Again
+                            <script>
+                            function goBack() {
+                                window.history.back();
+                            }
+                            </script>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+<section id="about" class="about">
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-lg-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <img src="assets/img/wolfyFinal.png"  class="fa fa-circle fa-stack-2x"></i>
+                                <img src="assets/img/wolfyFinal.png"  class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-lg-4">
+                            
+                            <h4>
+                                 <strong>Like What You See?</strong>
+                            </h4>
+                            <p>Try building something like this yourself in Wolfram Language.</p>
+                            <a href="https://www.wolfram.com/language/" class="btn-submit2">Learn More!</a>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-lg-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <img src="assets/img/wolfyFinal.png"  class="fa fa-circle fa-stack-2x"></i>
+                                <img src="assets/img/wolfyFinal.png"  class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- /.row (nested) -->
+                   
+                </div>
+            </div>
+        </div>
+    </aside>
+</section>
+
+<!-- Info -->
+<section id="info" class="info">
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>How This Was Made</h1>
+            <p>My Wolfram App is so cool. Here is the Description. If you want to make one just like me then check out our hacker blog for tips at tumblr.com/blog/wolframlang This is a template site made for a web app with an underlying Wolfram Language function. Email me to learn more about the project at maxg@wolfram.com
+            </p>
+        </div>
+    </aside>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <p>Copyright &copy; Your Name 20XX, email@gmail.com </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Ending Stuff for faster load and menu bar use -->
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
